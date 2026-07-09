@@ -8,5 +8,5 @@ import react from '@vitejs/plugin-react'
 // deja base en '/'.
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/',
+  base: '/alberto-lopez-gil-portfolio/',
 })
