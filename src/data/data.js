@@ -90,7 +90,7 @@ export const dict = {
         subtitle: 'Aplicación web fullstack · DAW',
         desc: 'Un juego de gacha completo construido de principio a fin, en solitario: frontend en React con diseño responsivo, backend en PHP Laravel con API REST, autenticación y gestión de roles. Desplegado con Docker y Apache en una arquitectura cliente-servidor real.',
         tags: ['React', 'PHP Laravel', 'MySQL', 'Docker', 'Tailwind', 'REST API'],
-        accent: 'gold', // SSR
+        accent: 'gold', 
         link: 'https://github.com/Alberto260803/CrazyGachaReact',
         live: 'https://youtu.be/D9IfVSnzWpE'
       },
@@ -101,11 +101,24 @@ export const dict = {
         tierLabel: 'Finalizado',
         dates: '2025 — 2026',
         subtitle: 'I+D Aplicado · Especialización IA & Big Data',
-        desc: 'Cuadro de mandos en Grafana con consultas Flux sobre InfluxDB para monitorizar datos industriales. Incluye un chat con un LLM (Modelo de Lenguaje Grande) integrado en un panel HTML conectado a un flujo Node-RED, permitiendo consultar e interactuar directamente con los datos extraídos en lenguaje natural. Análisis de datos con Pandas, Polars y Spark; todo sobre infraestructura AWS (S3, EC2, Lambda, Bedrock).',
+        desc: 'Cuadro de mandos en Grafana con consultas Flux sobre InfluxDB para monitorizar datos industriales. Incluye un chat con un LLM integrado en un panel HTML conectado a un flujo Node-RED, permitiendo consultar e interactuar con los datos extraídos en lenguaje natural. Análisis de datos con Pandas, Polars y Spark; todo sobre AWS (S3, EC2, Lambda, Bedrock).',
         tags: ['Grafana', 'InfluxDB', 'LLM', 'Node-RED', 'Python', 'AWS', 'RAG'],
-        accent: 'live', // LIVE
+        accent: 'live', 
         link: null,
-        image: '/hidrogeno.png', // <- AÑADE LA RUTA DE TU IMAGEN AQUÍ
+        image: '/hidrogeno.png',
+      },
+      {
+        id: 'pokedex-ia',
+        name: 'Pokédex con IA',
+        tier: 'SR',
+        tierLabel: 'Agente IA',
+        dates: '2026',
+        subtitle: 'Profesor Oak (smolagents + Mistral)',
+        desc: 'Agente conversacional inteligente que responde preguntas sobre Pokémon y simula combates. En lugar de inventar datos (alucinaciones), utiliza llamadas a herramientas (tool calling) para consultar la PokéAPI en tiempo real con datos reales. Interfaz interactiva desplegada con Streamlit.',
+        tags: ['Python', 'smolagents', 'Mistral AI', 'Streamlit', 'PokéAPI'],
+        accent: 'sr', 
+        link: 'https://github.com/Alberto260803/pokedex_ia',
+        live: 'https://alberlolg-pokedex-ia.streamlit.app',
       },
       {
         id: 'music-royale',
@@ -116,20 +129,20 @@ export const dict = {
         subtitle: 'Web App & YouTube API',
         desc: 'Aplicación web que simula un torneo musical para determinar el mejor año o playlist basándose en la votación del usuario mediante enfrentamientos 1vs1. Nació como solución para los "Recaps" de YouTube Music incompletos. Cuenta con carga de playlists vía YouTube Data API v3 y un sistema de desempate inteligente.',
         tags: ['React', 'YouTube Data API v3', 'CSS'],
-        accent: 'sr', // NUEVO ACENTO (Morado, 4 estrellas)
+        accent: 'sr', 
         link: 'https://github.com/Alberto260803/Web_Playlist',
         live: 'https://alberto260803.github.io/Web_Playlist/',
       },
       {
         id: 'quiniela',
         name: 'QuinielaRandom',
-        tier: 'R', // NUEVO TIER (3 estrellas)
+        tier: 'R', 
         tierLabel: 'Finalizado',
         dates: '2023',
         subtitle: 'Native Android App',
         desc: 'Aplicación móvil nativa para Android que genera combinaciones aleatorias para la quiniela de fútbol española (formato 1X2 en 14 partidos y pleno al 15). Ideal para generar apuestas rápidas.',
         tags: ['Java', 'Android Studio', 'Mobile Dev'],
-        accent: 'rare', // NUEVO ACENTO (Azul, 3 estrellas)
+        accent: 'rare',
         link: 'https://github.com/Alberto260803/QuinielaRandom',
       }
     ],
@@ -250,7 +263,20 @@ export const dict = {
         tags: ['Grafana', 'InfluxDB', 'LLM', 'Node-RED', 'Python', 'AWS', 'RAG'],
         accent: 'live',
         link: null,
-        image: '/hidrogeno.png', // <- AÑADE LA MISMA RUTA AQUÍ
+        image: '/hidrogeno.png',
+      },
+      {
+        id: 'pokedex-ia',
+        name: 'AI Pokédex',
+        tier: 'SR',
+        tierLabel: 'AI Agent',
+        dates: '2026',
+        subtitle: 'Professor Oak (smolagents + Mistral)',
+        desc: 'Smart conversational agent that answers Pokémon questions and simulates battles. Instead of hallucinating data, it uses tool calling to query the PokéAPI in real-time for accurate stats. Interactive interface deployed with Streamlit.',
+        tags: ['Python', 'smolagents', 'Mistral AI', 'Streamlit', 'PokéAPI'],
+        accent: 'sr',
+        link: 'https://github.com/Alberto260803/pokedex_ia',
+        live: 'https://alberlolg-pokedex-ia.streamlit.app',
       },
       {
         id: 'music-royale',
@@ -308,8 +334,6 @@ export const dict = {
   }
 }
 
-// EXPORTS DE SEGURIDAD
-// Esto evita errores si algún componente antiguo sigue apuntando directamente a las constantes.
 export const experience = dict.es.experience;
 export const projects = dict.es.projects;
 export const stats = dict.es.stats;
