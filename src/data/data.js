@@ -7,7 +7,7 @@ export const profile = {
   githubLabel: 'github.com/Alberto260803',
   linkedin: 'https://www.linkedin.com/in/alberto-lopez-gil/',
   linkedinLabel: 'Alberto López Gil',
-  cvFile: 'CV_Alberto_Lopez_Gil.pdf',
+  cvFile: 'CV_AlbertoLG.pdf',
   rarity: 5,
 }
 
