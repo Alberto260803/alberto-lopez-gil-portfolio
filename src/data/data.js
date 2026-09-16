@@ -13,7 +13,7 @@ export const profile = {
 
 export const otherTech = [
   'Grafana', 'InfluxDB', 'Flux', 'Node-RED', 'UiPath', 'smolagents',
-  'RAG / Agentes', 'MongoDB', 'Power BI', 'Git', 'Bootstrap',
+  'RAG / Agentes', 'MongoDB', 'Power BI', 'Git', 'Bootstrap', 'Tailwind'
 ]
 
 export const dict = {
