@@ -1,4 +1,4 @@
-# Alberto López Gil — Portfolio
+# Alberto López Gil Portfolio
 
 Portfolio personal construido con **React + Vite + Tailwind CSS**, con una estética inspirada
 en las cartas de invocación de los juegos gacha (rareza SSR, stats de personaje, quest log, etc). Si alguien quiere basarse en él te dejo aquí los pasos:
